@@ -1,0 +1,81 @@
+{
+  "name": "Code Sequence Puzzle #5",
+  "description": "Create the correct sequence of code lines",
+  "task": "Work with parameters to functions!",
+  "tags": "intro",
+  "editor": {
+    "freeformEditting": false,
+    "buttons": [],
+    "commands": {
+      "go": {
+        "inputs": 1,
+        "maxUses": 1
+      },
+      "turnAndGo": {
+        "inputs": 2,
+        "maxUses": 1
+      }
+    }
+  },
+  "code": {
+    "prefix": "",
+    "postfix": "",
+    "show": false,
+    "initial": "go(5);\nturnAndGo(\"South\", 2);"
+  },
+  "game": {
+    "characters": {
+      "protagonist": {
+        "x": 2,
+        "y": 7,
+        "dir": 1,
+        "index": 0,
+        "moves": []
+      },
+      "gflag": {
+        "x": 9,
+        "y": 0,
+        "index": 1,
+        "trigger": "victory"
+      }
+    }
+  },
+  "visual": {
+    "gameType": "grid",
+    "grid": {
+      "gridUnit": 30,
+      "border": 30,
+      "gridX": 10,
+      "gridY": 10
+    },
+    "animation": {
+      "length": 30,
+      "pixMoveRate": 1
+    },
+    "characters": {
+      "protagonist": {
+        "imgSet": 0,
+        "xOff": 2,
+        "yOff": 2,
+        "xSize": 26,
+        "ySize": 26
+      },
+      "gflag": {
+        "dir": 0,
+        "imgSet": 1,
+        "xOff": 2,
+        "yOff": 2,
+        "xSize": 26,
+        "ySize": 26
+      }
+    }
+  },
+  "help": [
+    "Click on a command to change its <em>Parameters</em>"
+  ],
+  "dyk": [],
+  "depends": [
+    "game1",
+    "game2"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "util.js",
+  "sourceRoot": "..\\..\\..",
+  "sources": [
+    "doppio-jvm\\scripts\\demo\\util.coffee"
+  ],
+  "names": [],
+  "mappings": ";AAAA;CAAA,CAAA,UAAA;CAAA,KAAA,aAAA;;CAAA,CAEA,CAAO,CAAP;;CAFA,CAMA,CAAgB,UAAhB;;CANA,CAOA,CAAoB,CAAhB,KAAiB,GAArB;AAGM,CAFJ,CAEI,CAAkB,CAFtB,CAAA,CAAmB,EAAQ,CAAR,GAAA,CAEf,yCAFA;CAGF,CAAA,WAAA;MAHF;CAKE,EAAgB,GAAhB,OAAA;CACa,CAAb,UAAA,CAAA;MAPgB;CAPpB,EAOoB;CAPpB"
+}

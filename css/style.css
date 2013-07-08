@@ -1,0 +1,46 @@
+.ace_editor {
+    position: relative !important;
+    border: 1px solid lightgray;
+    height: 80%;
+    width: 100%;
+}
+
+.game_visual {
+    float: right;
+}
+
+.pop-up-container {
+    border-radius: 5px;
+    position: absolute;
+    display:none;
+    height: 20px;
+    max-height: 22px;
+    background: #ffffff;
+    color: #000000;
+    border: 1px solid #1a1a1a;
+    z-index: 100;
+    box-shadow: -10px -10px 10 0 black;
+}
+
+.pop-up-inside {
+    border-radius: 5px;
+    display: inline-block;
+    position: relative;
+}
+
+input.pop-up-inside {
+    padding: 0;
+    border-width: 0;
+    margin: 0 1px 0 1px;
+    height: 20px;
+    width: 40px;
+    text-align: center;
+}
+
+button.pop-up-inside {
+/*#editLine {*/
+    padding: 0 6px 0 6px;
+    border-width: 0 2px 0 2px;
+    margin-left: 2px;
+    background-color: lightgreen;
+}
